@@ -15,9 +15,18 @@ bitBufHash(data, key, digestBitLength)
 ```
 const bitBufHash = require('bitbufhash');
 console.log(bitBufHash('foo', 'bar', 27, 'sha256').toString());
+```
 
-console.log(bitBufHash('foo', 'bar', 27, 'sha256'));
+```
+const bitBufHash = require('bitbufhash');
+const BitBuf = require('bitbuf');
+console.log(bitBufHash(BitBuf.from('010101'), BitBuf.from('1001001101'), 13, 'md5').toString());
+```
 
+Just figure it out. Length of the hash is calculated into the hash, so
+same key and same data produce totally different hash values, if the
+length differs (i.e. the hash is not just truncated ans therefore
+share a common prefix).
 
 Author
 ======
