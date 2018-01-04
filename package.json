@@ -1,6 +1,6 @@
 {
 	"name": "bitbufhash",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "Arbitrary bit length hashes and hmacs from arbitrary bit length data and key.",
 	"main": "bitbufhash.js",
     "dependencies": {
@@ -18,7 +18,9 @@
 	},
 	"keywords": [
 		"bitwise",
-		"buffer"
+		"buffer",
+		"hash",
+		"hmac"
 	],
 	"author": {
 		"name": "Timo J. Rinne",
