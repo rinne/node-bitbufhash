@@ -1,0 +1,33 @@
+{
+	"name": "bitbufhash",
+	"version": "0.1.0",
+	"description": "Arbitrary bit length hashes and hmacs from arbitrary bit length data and key.",
+	"main": "bitbufhash.js",
+    "dependencies": {
+        "bitbuf": "^0.1.2"
+	},
+	"scripts": {
+		"test": "node ./test/bitbufhash-test.js"
+	},
+	"engines": {
+		"node": ">=4.2.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rinne/node-bitbufhash.git"
+	},
+	"keywords": [
+		"bitwise",
+		"buffer"
+	],
+	"author": {
+		"name": "Timo J. Rinne",
+		"email": "tri@iki.fi",
+		"url": "https://github.com/rinne/"
+	},
+	"license": "GPL-2.0",
+	"bugs": {
+		"url": "https://github.com/rinne/node-bitbufhash/issues"
+	},
+	"homepage": "https://github.com/rinne/node-bitbufhash#readme"
+}
